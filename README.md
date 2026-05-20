@@ -10,7 +10,7 @@ Evaluated on a 11,744-abstract five-domain IEEE Xplore benchmark dataset.
 
 ## 📄 Paper
 
-> **A TF-IDF and Logistic Regression Pipeline for Scholarly Article Classification and Recommendation: A Five-Domain IEEE Xplore Benchmark Study**  
+> **A TF-IDF and Logistic Regression Pipeline for Scholarly Article Classification and Recommendation: IEEE Xplore Benchmark Study**  
 > Ghazi Irfan and Ghulam Mustafa  
 > *IEEE Access (under review), 2026*
 
