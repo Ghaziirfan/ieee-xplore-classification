@@ -16,34 +16,6 @@ Evaluated on a 11,744-abstract five-domain IEEE Xplore benchmark dataset.
 
 ---
 
-## 🏆 Results
-
-### Classification (Held-out test set: 2,349 abstracts)
-
-| Model | Accuracy | Weighted F1 |
-|------|----------|-------------|
-| Logistic Regression (C=5.0) | **85.01%** | 0.850 |
-| Linear SVM | 84.55% | — |
-| SGD Classifier | **85.65%** | — |
-| Soft Voting Ensemble | **85.57%** | 0.855 |
-| KNN (cosine) | 75.01% | — |
-| Decision Tree | 78.25% | — |
-
-Best CV score: **SGD Classifier (86.59% ± 0.73)**
-
----
-
-### Recommendation Performance (Top-10)
-
-| Metric | Cosine | LR-Reranked | Improvement |
-|--------|--------|-------------|-------------|
-| Precision@10 | 0.6467 | **0.7715** | +12.48 pp |
-| MAP@10 | 0.7664 | **0.8428** | +7.64 pp |
-| NDCG@10 | 0.8525 | **0.8902** | +3.77 pp |
-| MRR | 0.8502 | **0.8871** | +3.69 pp |
-
----
-
 ## 📁 Repository Structure
 
 ```
